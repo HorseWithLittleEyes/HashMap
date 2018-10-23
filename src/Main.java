@@ -24,8 +24,6 @@ public class Main {
         int number = keyboard.nextInt();
         for (int i = 1; i <= number; i++)
             System.out.println(i+"! = "+factorial(i));
-
-
     }
 
     public static int factorial(int n)
@@ -36,6 +34,5 @@ public class Main {
             return 1;
         else
             return n * factorial(n-1);
-
     }
 }
