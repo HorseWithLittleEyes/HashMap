@@ -17,6 +17,7 @@ public class Main {
             System.out.println(pair.getKey()+" = "+pair.getValue());
         }
 
+
         System.out.println("Recursion practice.");
         System.out.println("Printing factorials");
         System.out.print("Enter number: ");
